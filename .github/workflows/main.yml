@@ -1,0 +1,7 @@
+
+- name: Sripts
+run: | 
+docker build -t .
+docker login -u juharrais -p dckr_pat_Vmh1Fqn-TQ8jTQDTcE3TzaUF6G0
+docker tag juharrais/fiesc
+docker push docker push juharrais/fiesc:tagname
